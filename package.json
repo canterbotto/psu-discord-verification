@@ -1,0 +1,22 @@
+{
+  "name": "psu-discord-verification",
+  "version": "1.0.0",
+  "description": "Verification Bot for the unofficial Penn State Discord Bot. Created by David Kanter Eivin and Taren Lewis.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/canterbotto/psu-discord-verification.git"
+  },
+  "author": "David Kanter Eivin and Taren Lewis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/canterbotto/psu-discord-verification/issues"
+  },
+  "homepage": "https://github.com/canterbotto/psu-discord-verification#readme",
+  "dependencies": {
+    "discord.js": "^11.5.1"
+  }
+}
