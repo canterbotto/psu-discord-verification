@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/canterbotto/psu-discord-verification#readme",
   "dependencies": {
-    "discord.js": "^11.5.1"
+    "discord.js": "^11.5.1",
+    "log4js": "^5.2.2",
+    "pg": "^7.12.1"
   }
 }

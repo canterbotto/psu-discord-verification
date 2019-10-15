@@ -1,6 +1,39 @@
 {
-    "bot_token": "",
-    "verification_channel_id": "374074661111070731",
-    "super_admin": ["299210434467069963", "374074661111070731"],
-    "prefix": "!"
+    "info": {
+        "name": "PennState Discord Bouncer",
+        "prefix": "!",
+        "active_server": "484219789708099584"
+    },
+    "sec": {
+        "token-comment": "NOT A PRODUCTION TOKEN -- RESET BEFORE PRODUCTION BUILD",
+        "token": "NjMyNjkxMDQ2NTU1NDUxMzkz.XaJGtw.QyhP6mdOydA-fWos4mu0OCE_a94"
+    },
+    "db": {
+        "user": "psu",
+        "host": "138.68.255.47",
+        "database": "bot",
+        "password": "psu-bot",
+        "port": 5432
+    },
+    "imports": {
+        "db": "./DB.js",
+        "log": "./Log.js"
+    },
+    "cmd": {
+        "accept": {
+            "role": ["633505500889219077"],
+            "chan": ["633505675913461761"],
+            "path": "./commands/accept.js"
+        },
+        "register": {
+            "role": [""],
+            "chan": [""],
+            "path": "./commands/register.js"
+        },
+        "verify": {
+            "role": [""],
+            "chan": [""],
+            "path": "./commands/verify.js"
+        }
+    }
 }
