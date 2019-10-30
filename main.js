@@ -12,7 +12,7 @@ for (let cmd in config.cmd)
     cmds[cmd] = require(config.cmd[cmd].path);
 
 const log = new pathImports.log();
-const DB = new pathImports.db(config.db, Log);
+const DB = new pathImports.db(config.db, log);
 const prefix = config.info.prefix;
 DB.start()
 

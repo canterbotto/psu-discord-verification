@@ -2,11 +2,12 @@
     "info": {
         "name": "PennState Discord Bouncer",
         "prefix": "!",
-        "active_server": "484219789708099584"
+        "active_server": "484219789708099584",
+        "name_prefix": "Name:\n</th>\n<td width=59%>\n"
     },
     "sec": {
         "token-comment": "NOT A PRODUCTION TOKEN -- RESET BEFORE PRODUCTION BUILD",
-        "token": "NjMyNjkxMDQ2NTU1NDUxMzkz.XaJGtw.QyhP6mdOydA-fWos4mu0OCE_a94"
+        "token": "NjMyNjkxMDQ2NTU1NDUxMzkz.Xbj8cg.NVjb8eXYKBIE9PZIXdd5sRNqLn||Q"
     },
     "db": {
         "user": "psu",
@@ -27,7 +28,7 @@
         },
         "register": {
             "role": ["633675340069208068"],
-            "chan": [""],
+            "chan": ["633505675913461761"],
             "path": "./commands/register.js"
         },
         "verify": {
