@@ -11,7 +11,7 @@ let cmds = {};
 for (let cmd in config.cmd)
     cmds[cmd] = require(config.cmd[cmd].path);
 
-const Log = new pathImports.log();
+const log = new pathImports.log();
 const DB = new pathImports.db(config.db, Log);
 const prefix = config.info.prefix;
 DB.start()
@@ -40,7 +40,7 @@ client.on("message", (message) => {
     if (!config.cmd[command].chan.includes(message.channel.id))
         return message.channel.send("This command is not usable in this channel.");
     
-    let bot = {Log, DB, config, client};
+    let bot = {log, DB, config, client};
     cmds[command](message, args, bot);
 })
 

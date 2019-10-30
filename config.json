@@ -26,12 +26,12 @@
             "path": "./commands/accept.js"
         },
         "register": {
-            "role": [""],
+            "role": ["633675340069208068"],
             "chan": [""],
             "path": "./commands/register.js"
         },
         "verify": {
-            "role": [""],
+            "role": ["633675382519758878"],
             "chan": [""],
             "path": "./commands/verify.js"
         }
