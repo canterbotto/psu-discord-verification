@@ -22,6 +22,8 @@ client.on("message", (message) => {
     if (message.guild.id != config.info.active_server) return;
 
     if (message.author.bot) return;
+    if (message.channel.type == "dm")
+        return message.channel.send("Please use the guild chat.");
     if (message.content.indexOf(prefix) !== 0) return;
 
     let args = message.content.slice(prefix.length).split(/ +/g); // array of whitespace seperated
